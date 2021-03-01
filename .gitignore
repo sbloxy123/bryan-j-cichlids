@@ -5,7 +5,6 @@ public
 .env
 .env.development
 .env.production
-package-lock.json
 
 # Local Netlify folder
 .netlify
