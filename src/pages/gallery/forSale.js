@@ -35,6 +35,7 @@ export const query = graphql`
   }
 `;
 
+// used care-guide-css
 const forSale = ({ data }) => {
   return (
     <Layout>
