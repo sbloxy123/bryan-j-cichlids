@@ -16,7 +16,7 @@ exports.createPages = async ({ graphql, actions }) => {
       path: `/careGuide/${guide.slug}`,
       component: path.resolve(`src/templates/care-guide-template.js`),
       context: {
-        slug: `${guide.slug}`,
+        slug: guide.slug,
       },
     });
   });
